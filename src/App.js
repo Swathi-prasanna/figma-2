@@ -7,7 +7,11 @@ import Objects from "./tasks/Objects";
 import Hooks from "./tasks/Hooks";
 import Ternary from "./tasks/Ternary";
 import EmployeeDetails from "./tasks/EmployeeDetails";
-import './tasks/Sample.css';
+// import './tasks/Sample.css';
+import LiveNameDisplay from "./tasks/LiveNameDisplay";
+import Counterapp from "./tasks/Counterapp";
+import Charactercounter from "./tasks/Charactercounter";
+import Login from "./tasks/Login";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
       <Objects/> */}
       {/* <Hooks/> */}
       {/* <Ternary/> */}
-      <EmployeeDetails/>
+      {/* <EmployeeDetails/> */}
+      {/* <LiveNameDisplay/> */}
+      {/* <Counterapp/> */}
+      {/* <Charactercounter/> */}
+      <Login/>
     </div>
   );
 }
