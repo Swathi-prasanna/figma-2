@@ -13,7 +13,7 @@ export default function Login() {
       <input
         type="text"
         placeholder="Enter Name"
-        value={data.name}
+        value={data.name}   
         onChange={(e) => setData({ ...data, name: e.target.value })}
       ></input><br></br><br></br>
       <label for="password">Password: </label>

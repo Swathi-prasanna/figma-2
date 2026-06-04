@@ -12,6 +12,16 @@ import LiveNameDisplay from "./tasks/LiveNameDisplay";
 import Counterapp from "./tasks/Counterapp";
 import Charactercounter from "./tasks/Charactercounter";
 import Login from "./tasks/Login";
+import Header from "./Multiplepages/Header";
+import "./Multiplepages/Styling.css";
+import About from "./Multiplepages/About";
+import Services from "./Multiplepages/Services";
+import Projects from "./Multiplepages/Projects";
+import Business from "./Multiplepages/Business";
+import Pricing from "./Multiplepages/Pricing";
+import ClientsTestinomials from "./Multiplepages/ClientsTestinomials";
+import Blogs from "./Multiplepages/Blogs";
+import Footer from "./Multiplepages/Footer";
 
 function App() {
   return (
@@ -25,7 +35,16 @@ function App() {
       {/* <LiveNameDisplay/> */}
       {/* <Counterapp/> */}
       {/* <Charactercounter/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Header/>
+      <About/>
+      <Services/>
+      <Projects/>
+      <Business/>
+      <Pricing/>
+      <ClientsTestinomials/>
+      <Blogs/>
+      <Footer/>
     </div>
   );
 }
