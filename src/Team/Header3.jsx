@@ -1,17 +1,9 @@
-import React from "react";
+import React from 'react';
 import logo from "./logo1.png";
-import card1 from "./card1.png";
-import card2 from "./card2.png";
-import card3 from "./card3.png";
-import card4 from "./card4.png";
-import card5 from "./card5.png";
-import image1 from "./image1.png";
-import subject from "./subject.png";
 
-
-function Header() {
+function Header3() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="top-bar text-light">
         <div className="row align-items-start p-3">
           <div className="col-lg-8">
@@ -90,54 +82,15 @@ function Header() {
           </button>
         </div>
       </nav>
-      <div className="hero-section">
-        <div className="row g-3">
-          <div className="col-lg-6 ps-3">
-            <p className="fs-5 p-0 text-success">
-              IT solutions for the new era
-            </p>
-            <h1 className="text-light">
-              Beautiful IT services for your success
-            </h1>
-            <p className="fs-5 text-light">
-              Leverage agile frameworks to provide a robust synopsis for high
-              level overviews terative approaches bring table survival.
-            </p>
-            <button className="btn bg-success text-light fs-5 px-4 py-3 rounded me-3">
-              Read More
-            </button>
-            <a
-              href="#"
-              className="text-decoration-none text-success fs-1 fw-bold me-2"
-            >
-              <i className="bi bi-file-play"></i>
-            </a>
-            <span className="text-light fs-5 fw-bold">Play Intro</span>
-            <div className="hero-cards d-flex justify-content-start g-5 py-3 ps-2 mt-5">
-              <div className="me-5">
-                <img src={card1} alt="card1"></img>
-                <img src={card2} alt="card2"></img>
-                <img src={card3} alt="card3"></img>
-                <img src={card4} alt="card4"></img>
-                <img src={card5} alt="card5"></img>
-              </div>
-              <div>
-                <h2 className="text-light">36K+</h2>
-                <p className="text-light fw-bold fs-5">Team Members</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 ps-3">
-            <div className="hero-img">
-              <img src={image1} alt="image1" width="600px" height="600px"></img>
-            </div>
-            <div className="subject-card">
-                <img src={subject} alt="subject"></img>
-            </div>
-          </div>
+      <div className='d-flex justify-content-between pt-5'>
+        <h1 className='text-light py-2 pt-5 ms-3'>Our Team</h1>
+        <div className='py-5 pe-5'>
+        <a href="./" className='text-light  text-decoration-none fs-5'>Home-</a>
+        <a href="./" className='text-light   text-decoration-none fs-5'>Team</a>
         </div>
       </div>
-    </div>
-  );
+      </header>
+  )
 }
-export default Header;
+
+export default Header3

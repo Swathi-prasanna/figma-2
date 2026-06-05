@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
 import StaticComponents from "./tasks/StaticComponents";
 import DynamicComponents from "./tasks/DynamicComponents";
 import objects from "./tasks/Objects";
@@ -12,16 +14,29 @@ import LiveNameDisplay from "./tasks/LiveNameDisplay";
 import Counterapp from "./tasks/Counterapp";
 import Charactercounter from "./tasks/Charactercounter";
 import Login from "./tasks/Login";
-import Header from "./Multiplepages/Header";
-import "./Multiplepages/Styling.css";
-import About from "./Multiplepages/About";
-import Services from "./Multiplepages/Services";
-import Projects from "./Multiplepages/Projects";
-import Business from "./Multiplepages/Business";
-import Pricing from "./Multiplepages/Pricing";
-import ClientsTestinomials from "./Multiplepages/ClientsTestinomials";
-import Blogs from "./Multiplepages/Blogs";
-import Footer from "./Multiplepages/Footer";
+import Header from "./Home/Header";
+import "./Home/Styling.css";
+import About from "./Home/About";
+import Services from "./Home/Services";
+import Projects from "./Home/Projects";
+import Business from "./Home/Business";
+import Pricing from "./Home/Pricing";
+import ClientsTestinomials from "./Home/ClientsTestinomials";
+import Blogs from "./Home/Blogs";
+import Footer from "./Home/Footer";
+import Header1 from "./About/Header1";
+import TeamMembers from "./About/TeamMembers";
+import Footer1 from "./About/Footer1";
+import Header2 from "./Services/Header2";
+import Services1 from "./Services/Services1";
+import Pricing1 from "./Services/Pricing1";
+import Header3 from "./Team/Header3";
+import TeamMembers1 from "./Team/TeamMembers1";
+import Header4 from "./Contact/Header4";
+import Map from "./Contact/Map";
+import Details from "./Contact/Details";
+import Header5 from "./Blog/Header5";
+import BlogDetails from "./Blog/BlogDetails";
 
 function App() {
   return (
@@ -36,7 +51,9 @@ function App() {
       {/* <Counterapp/> */}
       {/* <Charactercounter/> */}
       {/* <Login/> */}
-      <Header/>
+
+      {/* Home Page */}
+      {/* <Header/>
       <About/>
       <Services/>
       <Projects/>
@@ -44,7 +61,38 @@ function App() {
       <Pricing/>
       <ClientsTestinomials/>
       <Blogs/>
-      <Footer/>
+      <Footer/> */}
+
+      {/* About page
+      <Header1/>
+      <About/>
+      <Business/>
+      <ClientsTestinomials/>
+      <TeamMembers/>
+      <Footer1/> */}
+
+      {/* ServicesPage
+      <Header2/>
+      <Services1/>
+      <Pricing1/>
+      <Footer1/> */}
+
+      {/* Team Page
+      <Header3 />
+      <TeamMembers1 />
+      <Footer1/> */}
+
+      {/* Contact Page
+      <Header4/>
+      <Map/>
+      <Details/>
+      <Footer1/> */}
+
+
+      {/* Blog Page */}
+      <Header5/>
+      <BlogDetails/>
+      <Footer1/>
     </div>
   );
 }
