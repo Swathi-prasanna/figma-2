@@ -37,8 +37,20 @@ import Map from "./Contact/Map";
 import Details from "./Contact/Details";
 import Header5 from "./Blog/Header5";
 import BlogDetails from "./Blog/BlogDetails";
+import Routing from "./pratice-tasks/Routing";
+import FirstName from "./pratice-tasks/FirstName";
+import SecondPage from "./pratice-tasks/SecondPage";
+import { ContextProvider } from "./pratice-tasks/Context";
+import SecondComp from "./pratice-tasks/SecondComp";
+import FirstComp from "./pratice-tasks/FirstComp";
+import ThirdComp from "./pratice-tasks/ThirdComp";
 
 function App() {
+  const student = {
+    name : "Devi",
+    age: 22,
+    city: "Guntur"
+  }
   return (
     <div className="App">
       {/* <StaticComponents/>
@@ -88,11 +100,20 @@ function App() {
       <Details/>
       <Footer1/> */}
 
-
-      {/* Blog Page */}
+      {/* Blog Page
       <Header5/>
       <BlogDetails/>
-      <Footer1/>
+      <Footer1/> */}
+      {/* <Routing />
+      <ContextProvider>
+        <Routes>
+          <Route path="/abc" element={<FirstName />}></Route>
+          <Route path="/xyz" element={<SecondPage />}></Route>
+        </Routes>
+      </ContextProvider> */}
+      <FirstComp name="Devi"/>
+      <SecondComp name="Nani"/>
+      <ThirdComp name={student}/>
     </div>
   );
 }
