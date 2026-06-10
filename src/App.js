@@ -47,6 +47,9 @@ import { Routes, Route } from "react-router-dom";
 import Sidebar from "./Hospital Website/Sidebar";
 import Navbar from "./Hospital Website/Navbar";
 import Nursingdashboard from "./Hospital Website/Nursingdashboard";
+import HospitalData from "./Hospital Website/HospitalData";
+import CriticalPatients from "./Hospital Website/CriticalPatients";
+import PatientCare from "./Hospital Website/PatientCare";
 
 function App() {
   const student = {
@@ -122,6 +125,9 @@ function App() {
         <div className="content">
           <Navbar/>
           <Nursingdashboard/>
+          <HospitalData/>
+          <CriticalPatients/>
+          <PatientCare/>
         </div>
       </div>
       
