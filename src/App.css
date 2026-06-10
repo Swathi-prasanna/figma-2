@@ -257,3 +257,62 @@
   letter-spacing: 0px;
   margin: 0;
 }
+.app-layout{
+  display: flex;
+  min-height: 100vh;
+}
+.content{
+  flex: 1;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.hero-main{
+  display: flex;
+  flex-direction: column;
+  width: 1270.4px;
+  height: 840px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 24px;
+}
+.main-data{
+  display: flex;
+  flex-direction: column;
+  height: 61.6px;
+}
+.hero-heading{
+  width: 262px;
+  height: 36px;
+  top: 0.4px;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+  color: #0F172B;
+}
+.hero-sub{
+  width: 361px;
+  height: 26px;
+  top: -0.4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0px;
+}
+.hospital-data{
+  width: 1222.4px;
+  height: 133.6px;
+}
+.hero-cards{
+  display: flex;
+  flex-direction: column;
+  width: 287.6px;
+  height: 133.6px;
+  color: #FFFFFF;
+  border-radius: 16.4px;
+  border: 0.8px solid #E2E8F0;
+  box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.1),
+              0px 1px 3px 0px rgba(0,0,0,0.1);
+}

@@ -46,6 +46,7 @@ import { Routes, Route } from "react-router-dom";
 // import ThirdComp from "./pratice-tasks/ThirdComp";
 import Sidebar from "./Hospital Website/Sidebar";
 import Navbar from "./Hospital Website/Navbar";
+import Nursingdashboard from "./Hospital Website/Nursingdashboard";
 
 function App() {
   const student = {
@@ -116,8 +117,14 @@ function App() {
       {/* <FirstComp name="Devi"/>
       <SecondComp name="Nani"/>
       <ThirdComp name={student}/> */}
-      <Sidebar/>
-      <Navbar/>
+      <div className="app-layout">
+        <Sidebar/>
+        <div className="content">
+          <Navbar/>
+          <Nursingdashboard/>
+        </div>
+      </div>
+      
     </div>
   );
 }
