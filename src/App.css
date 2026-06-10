@@ -182,7 +182,6 @@
   color: #314158;
 }
 #header{
-  width: 1270.4px;
   height: 64px;
   border-bottom: 0.8px;
   margin-left: 256px;
@@ -200,6 +199,7 @@
   display: flex;
   align-items: center;
   margin-left: auto;
+  gap: 15px;
   
 }
 .home-btn{
@@ -214,31 +214,32 @@
   background-color: #F1F5F9;
 }
 .bell-btn{
-  width: 36px;
-  height: 36px;
-  top: 6px;
-  left: 160.9px;
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
 }
 .red-dot{
   width: 8px;
   height: 8px;
-  top: 4px;
-  left: 24px;
   border-radius: 26843500px;
   background-color: #FB2C36;
+  position: absolute;
+  top : 1px;
+  right: 4px;
 }
 .admin-section{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  
+  flex-direction: column;
   height: 48px;
-  left: 212.9px;
   gap: 0px;
+  left: 212.9px;
 }
 .admin-data1{
- 
   height: 24px;
   top: -1.2px;
   font-weight: 400;
@@ -247,8 +248,7 @@
   letter-spacing: 0px;
   margin: 0;
 }
-.admin-data2{
-  
+.admin-data2{ 
   height: 24px;
   top: -1.2px;
   font-weight: 400;

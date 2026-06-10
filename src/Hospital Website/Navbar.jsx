@@ -11,7 +11,7 @@ const Navbar = () => {
                      <input type='search' placeholder='Search Patients, ID, Phone' className='formcontrol rounded'/>
                      <div className='nav-inner'>
                         <span className='home-btn'><CiHome />Main Campus</span>
-                        <div className='bell-btn'><IoIosNotificationsOutline /><span className='red-dot'></span></div>
+                        <div className='bell-btn'><IoIosNotificationsOutline size={24}/><span className='red-dot'></span></div>
                         
                         <div className='admin-section'>
                             <span className='admin-data1'>Jennifer Thompson</span>
