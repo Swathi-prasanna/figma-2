@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom"
+
 
 // import StaticComponents from "./tasks/StaticComponents";
 // import DynamicComponents from "./tasks/DynamicComponents";
@@ -48,14 +49,12 @@ import Sidebar from "./Hospital Website/Sidebar";
 import Navbar from "./Hospital Website/Navbar";
 import Nursingdashboard from "./Hospital Website/Nursingdashboard";
 import HospitalData from "./Hospital Website/HospitalData";
-import CriticalPatients from "./Hospital Website/CriticalPatients";
-import PatientCare from "./Hospital Website/PatientCare";
+import TestQueue from "./Hospital Website/TestQueue";
+import ResultEntry from "./Hospital Website/ResultEntry";
 
 function App() {
   const student = {
-    name : "Devi",
-    age: 22,
-    city: "Guntur"
+    name : "Swathi",
   }
   return (
     <div className="App">
@@ -122,12 +121,12 @@ function App() {
       <ThirdComp name={student}/> */}
       <div className="app-layout">
         <Sidebar/>
-        <div className="content">
+        <div  className="content">
           <Navbar/>
           <Nursingdashboard/>
           <HospitalData/>
-          <CriticalPatients/>
-          <PatientCare/>
+          <TestQueue />
+          <ResultEntry />    
         </div>
       </div>
       

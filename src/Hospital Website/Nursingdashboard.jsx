@@ -4,8 +4,8 @@ const Nursingdashboard = () => {
   return (
     <section className='hero-main'>
         <div className='main-data'>
-           <h1 className='hero-heading'>Nursing Dashboard</h1>
-           <p className='hero-sub'>Ward management, patient care &amp; vital monitoring</p>
+           <h1 className='hero-heading'>Laboratory Dashboard</h1>
+           <p className='hero-sub'>test queue, sample processing &amp;results management</p>
         </div>
     </section>
   )

@@ -14,8 +14,8 @@ const Navbar = () => {
                         <div className='bell-btn'><IoIosNotificationsOutline size={24}/><span className='red-dot'></span></div>
                         
                         <div className='admin-section'>
-                            <span className='admin-data1'>Jennifer Thompson</span>
-                            <span className='admin-data2 text-secondary'>ICU Ward</span>
+                            <span className='admin-data1'>Dr.Michael Lee</span>
+                            <span className='admin-data2 text-secondary'>Clincal Laboratory</span>
                         </div>
                      </div>
             </div>

@@ -280,7 +280,7 @@ body {
   height: 61.6px;
 }
 .hero-heading {
-  width: 262px;
+  width: 500px;
   height: 36px;
   top: 0.4px;
   font-weight: 400;
@@ -291,7 +291,7 @@ body {
   color: #0f172b;
 }
 .hero-sub {
-  width: 361px;
+  width: 400px;
   height: 26px;
   top: -0.4px;
   font-weight: 400;
@@ -322,7 +322,7 @@ body {
 .beds-inner-data {
   display: flex;
   flex-direction: row;
-  width: 238px;
+  width: 300px;
   height: 24px;
   gap: 12px;
 }

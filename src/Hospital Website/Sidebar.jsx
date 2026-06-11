@@ -2,6 +2,7 @@ import React from "react";
 import { RiDashboardLine } from "react-icons/ri";
 import { MdOutlineBed } from "react-icons/md";
 import { RxPeople } from "react-icons/rx";
+import { LuTestTube } from "react-icons/lu";
 import vector from "./Vector.png";
 import taskimg from "./task.png";
 import admin from "./admin.png";
@@ -49,26 +50,18 @@ const Sidebar = () => {
               class="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="bed-management">
-                <MdOutlineBed size={20} />
-                &nbsp;Bed Management
+                <LuTestTube size={20} />
+                &nbsp;Test Queue
               </span>
             </a>
-            <a
-              href="#"
-              className="sidebar-items text-decoration-none text-secondary py-3"
-            >
-              <span className="patient">
-                <RxPeople size={20} />
-                &nbsp; Patient Care
-              </span>
-            </a>
+           
             <a
               href="#"
               className="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="vital">
-                <img src={vector} width={20} height={20}></img>&nbsp; Vitals
-                Monitoring
+                <img src={vector} width={20} height={20}></img>&nbsp; Sample
+                Collection
               </span>
             </a>
             <a
@@ -76,8 +69,8 @@ const Sidebar = () => {
               className="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="task">
-                <img src={taskimg} width={20} height={20}></img>&nbsp; Tasks
-                &amp; HandOver
+                <img src={taskimg} width={20} height={20}></img>&nbsp; Resuls
+                &amp; Entry
               </span>
             </a>
           </div>
@@ -87,8 +80,8 @@ const Sidebar = () => {
           <div className="footer-admin">
             <img src={admin} />
             <div>
-                <p className="admin-name">Jennifer Thompson</p>
-                <p className="admin-occ">nurse</p>
+                <p className="admin-name">Dr.Michael Lee</p>
+                <p className="admin-occ">LabTechnician</p>
             </div>
           </div>
           <div className="login-btn">
