@@ -9,6 +9,9 @@ import admin from "./admin.png";
 import medicareicon from "./mediicon.png";
 import wrong from "./wrong.png";
 import { CiLogin } from "react-icons/ci";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { FiDollarSign } from "react-icons/fi";
+
 
 const Sidebar = () => {
   return (
@@ -50,18 +53,27 @@ const Sidebar = () => {
               class="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="bed-management">
-                <LuTestTube size={20} />
-                &nbsp;Test Queue
+                <IoDocumentTextOutline size={20} />
+                &nbsp;Invoicing
               </span>
             </a>
+            <a
+              href="#"
+              class="sidebar-items text-decoration-none text-secondary py-3"
+            >
+              <span className="bed-management">
+                <FiDollarSign  size={20} />
+                &nbsp; Receivables
+              </span>
+            </a>
+            
            
             <a
               href="#"
               className="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="vital">
-                <img src={vector} width={20} height={20}></img>&nbsp; Sample
-                Collection
+                <img src={vector} width={20} height={20}></img>&nbsp; Financial Reports
               </span>
             </a>
             <a
@@ -69,8 +81,7 @@ const Sidebar = () => {
               className="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="task">
-                <img src={taskimg} width={20} height={20}></img>&nbsp; Resuls
-                &amp; Entry
+                <img src={taskimg} width={20} height={20}></img>&nbsp; Refunds
               </span>
             </a>
           </div>
@@ -80,8 +91,8 @@ const Sidebar = () => {
           <div className="footer-admin">
             <img src={admin} />
             <div>
-                <p className="admin-name">Dr.Michael Lee</p>
-                <p className="admin-occ">LabTechnician</p>
+                <p className="admin-name">David Chen</p>
+                <p className="admin-occ">Accountant</p>
             </div>
           </div>
           <div className="login-btn">
