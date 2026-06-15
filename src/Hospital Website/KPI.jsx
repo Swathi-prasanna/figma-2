@@ -16,9 +16,9 @@ const RevenueCards = () => {
                     <span className="card-icon revenue-icon">$</span>
                     <span className="card-title">Total Revenue</span>
                 </div>
-                <h2 className="card-value">
+                <h5 className="card-value">
                     <MdOutlineCurrencyRupee />24.8k
-                    </h2>
+                    </h5>
                 <p className="card-text revenue-text">
                    <MdTrendingUp /> +12% vs yesterday</p>
             </div>
@@ -28,9 +28,9 @@ const RevenueCards = () => {
                         <IoMdCheckmarkCircleOutline color="blue" /></span>
                     <span className="card-title">Received</span>
                </div>  
-                    <h2 className="card-value">
+                    <h5 className="card-value">
                         <MdOutlineCurrencyRupee />
-                        2.2K</h2>
+                        2.2K</h5>
                     <p className="card-text received-text">
                     9% collection <div>rate</div> </p>
             </div>
@@ -50,7 +50,7 @@ const RevenueCards = () => {
                     <span className="card-title">                   
                          Invoices Today</span>
                 </div>
-                <h2 className="card-value">3</h2>
+                <h5 className="card-value">3</h5>
                 <p className="card-text invoice-text">
                     Generated
                 </p>

@@ -99,31 +99,6 @@ function App() {
       <Pricing1/>
       <Footer1/> */}
 
-      {/* Team Page
-      <Header3 />
-      <TeamMembers1 />
-      <Footer1/> */}
-
-      {/* Contact Page
-      <Header4/>
-      <Map/>
-      <Details/>
-      <Footer1/> */}
-
-      {/* Blog Page
-      <Header5/>
-      <BlogDetails/>
-      <Footer1/> */}
-      {/* <Routing />
-      <ContextProvider>
-        <Routes>
-          <Route path="/abc" element={<FirstName />}></Route>
-          <Route path="/xyz" element={<SecondPage />}></Route>
-        </Routes>
-      </ContextProvider> */}
-      {/* <FirstComp name="Devi"/>
-      <SecondComp name="Nani"/>
-      <ThirdComp name={student}/> */}
       <div className="app-layout">
         <Sidebar/>
         <div  className="content">
@@ -134,9 +109,11 @@ function App() {
           <Recent />
           <Routes>
             {/*<Route path="/" element={<BillDetails />}></Route>*/}
+            <Route path="Invoicing" element={<InvoicingBilling/>}></Route>
+        
       
           </Routes>
-          
+           
   
         </div>
       </div>

@@ -40,8 +40,8 @@ const Sidebar = () => {
                                 </div>
         
             <div className="dashboard-item">
-            <a
-              href="#"
+            <NavLink
+              href="dashboard-item"
               className="text-decoration-none py-2"
               aria-current="true"
             >
@@ -49,13 +49,13 @@ const Sidebar = () => {
                 <RiDashboardLine size={20} />
                 &nbsp; Dashboard
               </span>
-            </a></div>
-            <NavLink to="/invoicing"
-              className="sidebar-items text-decoration-none text-secondary py-3"
-            >
+            </NavLink></div>
+            <NavLink to="/InvoicingBilling"
+              className={({ isActive})=>isActive ? "sidebar-items active-menu text-decoration-none py-3" : "sidebar-items text-decoration-none text-secondary py-3"}
+              >
               <span className="bed-management">
                 <IoDocumentTextOutline size={20} />
-                &nbsp;Invoicing
+                &nbsp; Invoicing
               </span>
             </NavLink>
             <a
