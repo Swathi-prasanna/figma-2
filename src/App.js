@@ -47,11 +47,14 @@ import {Routes, Route } from "react-router-dom"
 // import ThirdComp from "./pratice-tasks/ThirdComp";
 import Sidebar from "./Hospital Website/Sidebar";
 import Navbar from "./Hospital Website/Navbar";
-import Nursingdashboard from "./Hospital Website/Nursingdashboard";
+import FinanceDasboard from "./Hospital Website/FinanceDasboard";
 import KPI from "./Hospital Website/KPI";
 import Charts from "./Hospital Website/Charts";
 import Recent from "./Hospital Website/Recent transaction";
+import BillDetails from "./Hospital Website/BillDetails";
 import "./App.css";
+import InvoicingBilling from "./Hospital Website/InvoicingBilling";
+
 
 
 function App() {
@@ -125,10 +128,15 @@ function App() {
         <Sidebar/>
         <div  className="content">
           <Navbar/>
-          <Nursingdashboard/>
+          <FinanceDasboard/>
           <KPI />
           <Charts/>
-          <Recent transaction/>
+          <Recent />
+          <Routes>
+            {/*<Route path="/" element={<BillDetails />}></Route>*/}
+      
+          </Routes>
+          
   
         </div>
       </div>

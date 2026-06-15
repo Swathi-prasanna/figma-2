@@ -12,7 +12,7 @@ const RevenueCards = () => {
     return(
       <div className="dashboard-cards">
             <div className="card-box">
-                <div className="card-header">
+                <div className="card-Header">
                     <span className="card-icon revenue-icon">$</span>
                     <span className="card-title">Total Revenue</span>
                 </div>
@@ -23,7 +23,7 @@ const RevenueCards = () => {
                    <MdTrendingUp /> +12% vs yesterday</p>
             </div>
             <div  className="card-box">
-                <div className="card-header">
+                <div className="card-Header">
                     <span className="card-icon recived-icon">
                         <IoMdCheckmarkCircleOutline color="blue" /></span>
                     <span className="card-title">Received</span>
@@ -35,7 +35,7 @@ const RevenueCards = () => {
                     9% collection <div>rate</div> </p>
             </div>
             <div className="card-box">
-            <div className="card-header">
+            <div className="card-Header">
                 <span className="card-icon pending-icon"><CiClock2 /></span>
                 <span className="card-title">Pending</span>
             </div>

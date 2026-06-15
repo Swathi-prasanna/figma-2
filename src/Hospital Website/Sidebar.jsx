@@ -11,6 +11,8 @@ import wrong from "./wrong.png";
 import { CiLogin } from "react-icons/ci";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FiDollarSign } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
+import { DocumentAttachOutline  } from "react-icons/io5";
 
 
 const Sidebar = () => {
@@ -48,15 +50,14 @@ const Sidebar = () => {
                 &nbsp; Dashboard
               </span>
             </a></div>
-            <a
-              href="#"
-              class="sidebar-items text-decoration-none text-secondary py-3"
+            <NavLink to="/invoicing"
+              className="sidebar-items text-decoration-none text-secondary py-3"
             >
               <span className="bed-management">
                 <IoDocumentTextOutline size={20} />
                 &nbsp;Invoicing
               </span>
-            </a>
+            </NavLink>
             <a
               href="#"
               class="sidebar-items text-decoration-none text-secondary py-3"
