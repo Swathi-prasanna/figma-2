@@ -36,25 +36,6 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/invoicing" element={<InvoicingBilling />} />
             <Route path="/receivables" element={<Receivables />} />
-            <Route
-              path="/financial-reports"
-              element={
-                <EmptyPage
-                  title="Financial Reports"
-                  subtitle="Reports page is ready for your next component."
-                />
-              }
-            />
-            <Route
-              path="/refunds"
-              element={
-                <EmptyPage
-                  title="Refunds"
-                  subtitle="Refund tracking page is ready for your next component."
-                />
-              }
-            />
-            <Route path="*" element={<Dashboard />} />
           </Routes>
         </main>
       </div>
