@@ -9,13 +9,12 @@ function InvoicingBilling(){
     },
 ]);
 const additem=()=>{
-    setitems(items,{
+    setitems([...items,{
         description:" ",
         dept:" ",
         qty:1,
         rate:0,
-    },
-);
+    }]);
 };
 return(
     <div className="invoice-page">
@@ -108,7 +107,7 @@ return(
                 </button>
             </div>
         </div>
-        <div className="sidebar">
+        <div className="invoice-sidebar">
             <div className="side-card">
                 <h3>Quick Services</h3>
                 <div className="service-item">
