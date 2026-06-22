@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Container1 from "./Container1.png";
 import Container2 from "./Container2.png";
 

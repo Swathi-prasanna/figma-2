@@ -8,6 +8,8 @@ import Charts from "./Hospital Website/Charts";
 import Recent from "./Hospital Website/Recent transaction";
 import InvoicingBilling from "./Hospital Website/InvoicingBilling";
 import Receivables from "./Hospital Website/Receivables";
+import FInanceReport from "./Hospital Website/FInanceReport";
+import Refunds from "./Hospital Website/Refunds";
 
 const Dashboard = () => (
   <>
@@ -18,12 +20,7 @@ const Dashboard = () => (
   </>
 );
 
-const EmptyPage = ({ title, subtitle }) => (
-  <section className="empty-page">
-    <h1>{title}</h1>
-    <p>{subtitle}</p>
-  </section>
-);
+
 
 function App() {
   return (
@@ -36,6 +33,8 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/invoicing" element={<InvoicingBilling />} />
             <Route path="/receivables" element={<Receivables />} />
+            <Route path="/financial-reports" element={<FInanceReport />} />
+            <Route path="/refunds" element={<Refunds />} />
           </Routes>
         </main>
       </div>
